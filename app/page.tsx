@@ -7,7 +7,7 @@ export default function Home() {
   console.log(posts);
   return (
     <main className="max-w-2xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6">My Blog ViPT hehe</h1>
+      <h1 className="text-3xl font-bold mb-6">My Blog ViPT hehe test ci/cd</h1>
       <ul className="space-y-4">
         {posts.map((post) => (
           <li key={post.slug} className="border-b pb-3">
